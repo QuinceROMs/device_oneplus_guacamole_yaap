@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/odm_feature_list:$(TARGET_COPY_OUT_ODM)/etc/odm_feature_list
 
-
 # Camera
 PRODUCT_PACKAGES += \
     OnePlusCameraHelper
@@ -40,6 +39,10 @@ TARGET_BOARD_FASTBOOT_INFO_FILE := $(LOCAL_PATH)/fastboot-info.txt
 # Device init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom
+
+# Overlays
+PRODUCT_PACKAGES += \
+    SystemUIOverlay
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
