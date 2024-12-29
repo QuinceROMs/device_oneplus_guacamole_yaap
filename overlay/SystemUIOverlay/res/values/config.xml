@@ -21,6 +21,6 @@
 <resources>
     <!-- SystemUI Plugins that can be loaded on user builds. -->
     <string-array name="config_pluginAllowlist" translatable="false">
-        <item>com.yaap.device.DeviceSettings</item>
+        <item>com.pixelage.device.DeviceSettings</item>
     </string-array>
 </resources>
